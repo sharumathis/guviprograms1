@@ -1,0 +1,9 @@
+x=int(input(""))
+y=int(input(""))
+z=int(input(""))
+if((x>z)and(x>y)):
+    print(x)
+elif((y>z)and(y>x)):
+    print(y)
+else:
+    print(z)
