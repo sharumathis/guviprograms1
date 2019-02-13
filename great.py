@@ -1,0 +1,9 @@
+x=float(input())
+y=float(input())
+z=float(input())
+if((x>z)and(x>y)):
+    print(x)
+elif((y>z)and(y>x)):
+    print(y)
+else:
+    print(z)
